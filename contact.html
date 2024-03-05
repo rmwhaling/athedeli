@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/styles.css/deli.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="deli_terms.html">Deli Terms</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="meat/meats.html">Meat</a></li>
+            <li><a href="Meat/bologna.html">Bologna</a></li>
+            <li><a href="Meat/ham-it-up.html">Ham it Up</a></li>
+            <li><a href="hard-vs-genoa.html">Hard vs Genoa Salami</a></li>
+            <li><a href="Sodium/meats.html">Sodium</a></li>
+        </ul>
+    </header>
+   
+    <main>
+        <h1>Contact Us</h1>
+        
+        <form action="https://httpbin.org/get">
+            <label for="firstName" class="label">First Name</label>
+            <input type="text" name="firstName" id="firstName" placeholder="Enter your First Name"  required>
+            <br>
+            <br>
+            <label for="lastName" class="label">Last Name</label>
+            <input type="text" name="lastName" id="lastName" placeholder="Enter your Last Name" required>
+            <br><br>
+            <label for="email" class="label">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email Address" required>
+            <br><br>
+            
+            <label for="cellphone" class="label">Cell Number</label>
+            <input type="text" name="cellphone" id="cellphone" pattern="[\d]{7,14}" placeholder="Enter cell number" required>
+            <br><br>
+            
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message here"></textarea>
+            <br><br>
+         
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    
+    
+    </main>
+    </body>
+</html>

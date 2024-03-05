@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --BGCOLOR-HEADER:  rgb(181, 137, 92);
+    --BGCOLOR-HEADER2: rgb(240, 212, 159);
+    --BGCOLORRED: rgb(217, 74, 48);
+    --BGCOLORDEEPRED: rgb(178, 34, 34);
+    
+}
+
+body    {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--BGCOLOR-HEADER2);
+
+    
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.header-container {
+    list-style-type: none;
+    display: flex;
+    background-color: var(--BGCOLORDEEPRED);
+    height: 4rem;
+    align-items: center;
+   
+}
+
+.header-items {
+    padding-right: 35px;
+}
+
+.header-items:last-child {
+    padding-right: 70px;
+}
+
+.header-items a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+} 
+
+.header-items a:hover {
+    color: aqua;
+}
+
+.header-logo  {
+    width: 40px;
+    height: 40px;
+    margin-left: 70px;
+}
+
+.header-container a {
+    margin-right: auto;
+}
+
+.header-container img {
+    margin-right: auto;
+}
+
+main    {
+    max-width: 90%;
+    margin: auto;
+}
+
+h1  {
+    margin: 2rem 0;
+}
+
+.definition {
+    align-items: end;
+    margin: 35px 0;
+    padding: 20px 10px;
+    display: flex;
+    width: 75ch;
+    background-color: var(--BGCOLORDEEPRED);
+    color: white;
+    height: fit-content;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.definition h2 {
+    padding-left: 35px;
+}
+
+.definition p {
+    padding-top: 20px;
+}
